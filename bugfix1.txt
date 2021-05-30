@@ -1,1 +1,3 @@
 Arquivo do bug fix 1
+
+Ajuste do bug fix no lugar certo.
