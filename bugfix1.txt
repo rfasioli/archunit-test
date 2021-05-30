@@ -1,1 +1,3 @@
 Arquivo do bug fix 1
+
+Com ajuste GHX na master
