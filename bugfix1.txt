@@ -1,4 +1,0 @@
-Arquivo do bug fix 1
-
-Com ajuste GHX na master
-Ajuste do bug fix no lugar certo.
