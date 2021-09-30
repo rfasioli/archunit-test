@@ -1,0 +1,15 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ù¿éûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(†éåæøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(åö¡½úÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(÷¶ÿ9
+N	java:S106"9Replace this use of System.out or System.err by a logger.(É„†ú
+G
+java:S1612!",Replace this lambda with a method reference.(‡²‘ûÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(‡²‘ûÿÿÿÿ
+M	java:S106#"9Replace this use of System.out or System.err by a logger.(ìÇ†#
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(¨ŸÛ¼
+N	java:S106("9Replace this use of System.out or System.err by a logger.(®êğß
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(©×·ğ
+y
+java:S3039)"cRefactor this "substring" call; it will result in an "StringIndexOutOfBounds" exception at runtime.(©×·ğ

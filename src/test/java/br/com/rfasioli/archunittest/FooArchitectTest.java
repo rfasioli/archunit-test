@@ -1,4 +1,4 @@
-package br.com.rfasioli.fas;
+package br.com.rfasioli.archunittest;
 
 import com.tngtech.archunit.core.domain.JavaClasses;
 import com.tngtech.archunit.core.importer.ClassFileImporter;
@@ -6,7 +6,7 @@ import com.tngtech.archunit.lang.ArchRule;
 
 import org.junit.Test;
 
-import br.com.rfasioli.fas.persistence.Dao;
+import br.com.rfasioli.archunittest.persistence.Dao;
 
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.classes;
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.noClasses;
@@ -152,6 +152,12 @@ public class FooArchitectTest {
 
         rule.check(importedClasses);
 
+    }
+
+    @Test
+    public void teste() {
+        classes().that().resideInAPackage("..persistence..")
+        .should().onlyHaveDependentClassesThat().resideInAnyPackage("..persistence..", "..service..");
     }
     
 }
